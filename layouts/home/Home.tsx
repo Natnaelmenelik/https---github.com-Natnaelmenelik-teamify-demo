@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Navbar from "../common/Navbar";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -32,7 +33,7 @@ const Home = () => {
               Instant Demo
             </Button>
             <Button className="bg-transparent border-2 font-bold border-orange-500 hover:text-white hover:bg-amber-700">
-              Setup Your Company
+              <Link href="/company-setup">Setup Your Company</Link>
             </Button>
           </div>
         </div>
