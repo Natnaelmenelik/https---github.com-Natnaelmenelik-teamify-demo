@@ -45,7 +45,7 @@ export default function Contact() {
                 Get in Touch
               </h1>
               <h2 className="text-xl md:text-2xl text-gray-300">
-                We're here to help with your virtual office needs
+                We&apos;re here to help with your virtual office needs
               </h2>
             </div>
           </div>
