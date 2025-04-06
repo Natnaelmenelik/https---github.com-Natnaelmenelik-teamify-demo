@@ -84,10 +84,11 @@ export default function About() {
               remote collaboration feel as natural as being in the same room.
             </p>
             <p>
-              We're building the future of work - one where location doesn't
-              limit creativity, where teams stay connected effortlessly, and
-              where your best work happens on your terms. Teamify Room is more
-              than a tool; it's your team's digital headquarters.
+              We&apos;re building the future of work - one where location
+              doesn&apos;t limit creativity, where teams stay connected
+              effortlessly, and where your best work happens on your terms.
+              Teamify Room is more than a tool; it&apos;s your team&apos;s
+              digital headquarters.
             </p>
           </div>
         </div>
