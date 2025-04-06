@@ -3,6 +3,7 @@ import { useState } from "react";
 import Navbar from "@/layouts/common/Navbar";
 import { Mail, Phone, MapPin, Building2, Send } from "lucide-react";
 import Footer from "@/layouts/common/Footer";
+import Image from "next/image";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -33,7 +34,7 @@ export default function Contact() {
       <div className="container mx-auto px-4 pt-20">
         {/* Hero Section */}
         <div className="relative h-[40vh] mb-20 rounded-2xl overflow-hidden">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&w=1920&q=80"
             alt="Contact Us"
             className="w-full h-full object-cover"

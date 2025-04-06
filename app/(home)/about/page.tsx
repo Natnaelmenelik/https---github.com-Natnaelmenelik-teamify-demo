@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "@/layouts/common/Navbar";
 import Footer from "@/layouts/common/Footer";
+import Image from "next/image";
 
 interface TeamMember {
   name: string;
@@ -52,7 +53,7 @@ export default function About() {
       <div className="container mx-auto px-4 pt-20">
         {/* Hero Section */}
         <div className="relative h-[60vh] mb-20 rounded-2xl overflow-hidden">
-          <img
+          <Image
             src="/images/background.png"
             alt="Teamify Room in action"
             className="w-full h-full object-cover"
@@ -102,7 +103,7 @@ export default function About() {
                 key={member.name}
                 className="bg-gray-800/50 rounded-lg p-6 backdrop-blur-sm hover:bg-gray-800/70 transition-colors duration-300"
               >
-                <img
+                <Image
                   src={member.image}
                   alt={member.name}
                   className="w-24 h-24 rounded-full mb-6 mx-auto object-cover border-2 border-orange-500"
