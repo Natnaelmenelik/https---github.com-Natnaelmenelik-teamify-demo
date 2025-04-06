@@ -22,7 +22,7 @@ const Home = () => {
       <Navbar />
 
       <section className="main-container">
-        <div className="mt-36 md:mt-44 flex flex-col space-y-[450px]  md:space-y-[470px] lg:space-y-[500px]">
+        <div className="mt-28 md:mt-44 flex flex-col space-y-[450px]  md:space-y-[470px] lg:space-y-[500px]">
           <h1 className="text-center text-4xl md:text-5xl">
             Welcome To Your
             <span className="text-orange-500"> Virtual Office</span>
