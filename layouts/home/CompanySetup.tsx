@@ -160,17 +160,8 @@ const CompanySetup = () => {
             </div>
 
             <Button className="w-full h-11 text-base" type="submit">
-              Sign Up
+              Create Team
             </Button>
-
-            <div className="text-center text-sm mt-4">
-              <a
-                href="/login"
-                className="text-primary font-medium hover:underline"
-              >
-                Create Team
-              </a>
-            </div>
           </CardContent>
         </Card>
       </main>
