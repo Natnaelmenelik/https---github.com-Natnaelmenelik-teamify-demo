@@ -72,21 +72,21 @@ const Navbar = () => {
       {showMenu && (
         <section className="bg-[#0c1017] top-32 w-full border-2 h-96 p-10 rounded-sm">
           <div className="flex flex-col items-center gap-10">
-            <Link href="" className="text-xl hover:underline">
+            <Link href="/" className="text-xl hover:underline">
               Home
             </Link>
-            <Link href="" className="text-xl hover:underline">
+            <Link href="/features" className="text-xl hover:underline">
               Features
             </Link>
-            <Link href="" className="text-xl hover:underline">
+            <Link href="/about" className="text-xl hover:underline">
               About Us
             </Link>
-            <Link href="" className="text-xl hover:underline">
+            <Link href="/contact" className="text-xl hover:underline">
               Contact Us
             </Link>
 
             <Button className="font-bold w-full text-lg bg-amber-500 rounded-sm hover:bg-amber-600">
-              Sign In
+              <Link href="/register">Sign In</Link>
             </Button>
           </div>
         </section>
